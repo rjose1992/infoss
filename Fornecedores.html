@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+         <link rel="stylesheet" href="estilo.css" type="text/css"/>
+    </head>
+    <body class="body">
+        <h1>Fornecedores</h1>
+        
+       <form action="/serverpage" class=" formulario">
+
+            <input id="nome" class="texto" name="nome" type="text" value="" placeholder="Nome do Fornecedor .."/><br>
+            <input id="senha" class="texto" name="idade" type="number" placeholder="Idade"/><br>
+            <input id="nome" class="texto" name="altura" type="text" value="" placeholder="Altura"/><br>
+            <input id="senha" class="texto" name="peso" type="number" placeholder="Peso ..."/><br>
+
+            <label for="sexo" style="color:blue">Indique o sexo: </label>
+            <input type="radio" value="1" checked="checked" name="rd_sexo"/> Masculino
+            <input type="radio" value="2"  name="rd_sexo"/> Femenino
+            <button value="" type="submit" id="btn_send" class="btn_send">Salvar</button>
+
+            <br>
+
+        </form>
+       
+    </body>
+</html>
